@@ -50,19 +50,20 @@ Replace /path/to/chromedriver with the actual path to the Chrome driver executab
 
 **API Endpoints:**
 
-Execute Test Suite:
-URL: http://127.0.0.1:8000/testai/tests/v1/execute
-Method: POST
-Headers: Content-Type: application/json
-Body:
-{
-  "tests": [
-    {
-      "title": "Test Case 1",
-      "steps": [
-        "Open Browser browser=chrome",
-        "Go To url=https://google.com"
-      ]
-    }
-  ]
+Execute Test Suite:  
+URL: http://127.0.0.1:8000/testai/tests/v1/execute  
+Method: POST  
+Headers: Content-Type: application/json  
+Body:  
+{  
+  "tests": [  
+    {  
+      "title": "Test Case 1",  
+      "steps": [  
+        "Open Browser browser=chrome",  
+        "Go To url=https://google.com"  
+      ]  
+    }  
+  ]  
 }
+
