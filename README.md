@@ -2,8 +2,6 @@ QuoDroid
 Steps to Set up the Project:
 Clone the Repository:
 
-
-
 git clone https://github.com/PAVANKUMAR-KUNTOLLA/QuoDroid.git
 Create Virtual Environment:
 
