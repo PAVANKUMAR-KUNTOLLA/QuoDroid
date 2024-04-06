@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.10.6 on win32)" generated="2024-04-06T19:44:53.946378" rpa="false" schemaversion="5">
+<suite id="s1" name="Tmpedlguy 4" source="C:\Users\PAVANK~1\AppData\Local\Temp\tmpedlguy_4.robot">
+<test id="s1-t1" name="Open facebook.com" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<arg>https://www.facebook.com/</arg>
+<arg>chrome</arg>
+<arg>executable_path=C:/Users/PAVANKUMAR KUNTOLLA/Downloads/chromedriver-win64/chromedriver.exe</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-06T19:44:54.074053" elapsed="16.260505"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-06T19:45:10.335521" elapsed="2.008756"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-04-06T19:45:12.345270" elapsed="2.275977"/>
+</kw>
+<status status="PASS" start="2024-04-06T19:44:54.072947" elapsed="20.550290"/>
+</test>
+<status status="PASS" start="2024-04-06T19:44:53.948383" elapsed="20.676854"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tmpedlguy 4">Tmpedlguy 4</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

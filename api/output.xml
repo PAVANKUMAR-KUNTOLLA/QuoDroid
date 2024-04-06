@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.10.6 on win32)" generated="2024-04-06T19:20:26.984778" rpa="false" schemaversion="5">
+<suite id="s1" name="launchBrowser" source="C:\Users\PAVANKUMAR KUNTOLLA\Documents\college works\QuoDroid\core\api\launchBrowser.robot">
+<test id="s1-t1" name="MyTestCases" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-06T19:20:27.184737" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<arg>${url1}</arg>
+<arg>${browser}</arg>
+<arg>executable_path=${chrome_driver_path}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-06T19:20:27.184737" elapsed="2.661420"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-06T19:20:31.854359" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-06T19:20:29.847186" elapsed="2.007173"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-06T19:20:31.855256" level="INFO">Opening browser 'chrome' to base url 'http://www.facebook.com/'.</msg>
+<arg>${url2}</arg>
+<arg>${browser}</arg>
+<arg>executable_path=${chrome_driver_path}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-06T19:20:31.854359" elapsed="3.072597"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-06T19:20:36.943360" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-06T19:20:34.927926" elapsed="2.015434"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-04-06T19:20:36.943360" elapsed="2.237370"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-04-06T19:20:39.180730" elapsed="6.281444"/>
+</kw>
+<status status="PASS" start="2024-04-06T19:20:27.183752" elapsed="18.279417"/>
+</test>
+<status status="PASS" start="2024-04-06T19:20:26.986784" elapsed="18.478387"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="launchBrowser">launchBrowser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
